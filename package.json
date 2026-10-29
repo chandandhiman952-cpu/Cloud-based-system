@@ -1,0 +1,13 @@
+{
+  "name": "cloud-student-management",
+  "version": "1.0.0",
+  "description": "Student management demo using AWS RDS and Firebase Realtime Database",
+  "type": "module",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.2",
+    "mysql2": "^3.12.0"
+  }
+}
